@@ -1,0 +1,67 @@
+# TCP/IP Model – Hands-on Learning
+
+This section is a practical breakdown of the TCP/IP model with real packet analysis, labs, and protocol-level understanding using Wireshark and networking tools.
+
+The focus is not theory memorization — but understanding how data actually moves across networks.
+
+---
+
+# What I Practiced
+
+## Core Model Understanding
+- TCP/IP layers breakdown
+- OSI vs TCP/IP mapping
+- Encapsulation & decapsulation flow
+
+## Protocol Behavior
+- TCP vs UDP behavior differences
+- DNS resolution process
+- HTTP vs HTTPS communication flow
+
+## Packet-Level Analysis
+- TCP 3-way handshake (SYN, SYN-ACK, ACK)
+- DNS query tracing in Wireshark
+- HTTPS TLS handshake observation
+
+## Real Network Flow Thinking
+- How browser connects to server
+- How packets travel through layers
+- Where routing + NAT happens
+
+---
+
+# Hands-On Labs (Evidence)
+
+Each concept is backed with practical labs:
+
+- TCP Handshake capture (Wireshark)
+- DNS resolution tracing
+- HTTP request-response inspection
+- Packet flow breakdown exercises
+
+---
+
+# Tools Used
+
+- Wireshark
+- Cisco Packet Tracer
+- Linux terminal (Ubuntu)
+- TCPDump
+
+---
+
+# What I Can Explain After This Section
+
+- How a website is actually loaded step-by-step
+- What happens inside a TCP connection
+- How DNS translates domains to IPs
+- Why HTTPS is secure at packet level
+- How data moves across network layers
+
+---
+
+# Next Steps
+
+- Deep dive into DNS + HTTP flow analysis
+- Build more Wireshark capture labs
+- Start subnetting + routing layer integration
