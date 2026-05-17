@@ -1,33 +1,54 @@
-# TCP/IP Model – Hands-on Learning
+#  TCP/IP Lab Module
 
-This repository contains hands-on networking labs focused on TCP/IP model,
-packet analysis, and real-world network behavior.
+## Purpose
+This module is a hands-on exploration of how real network communication works using the TCP/IP model.
 
-Goal: Understand how data moves across networks using practical tools like Wireshark and Linux commands.
+Instead of memorizing theory, I observe actual packet-level behavior using tools like Wireshark and browser network activity.
 
 ---
 
-# Tools Used
+## What this module covers
+
+- TCP 3-way handshake behavior
+- DNS resolution process
+- HTTP vs HTTPS request flow
+- Basic packet-level observation of network communication
+
+---
+
+## Approach
+
+Each topic is explored using a simple cycle:
+
+1. Perform a real network action (e.g. open a website)
+2. Capture traffic using Wireshark
+3. Analyze packets
+4. Document what actually happened
+5. Record evidence (screenshots)
+
+---
+
+## Tools Used
 
 - Wireshark
-- Cisco Packet Tracer
-- Linux terminal (Ubuntu)
-- TCPDump
+- Web browser
+- Basic networking utilities (ping, curl)
 
 ---
 
-# What I Can Explain After This Section
+## Labs Included
 
-- How a website is actually loaded step-by-step
-- What happens inside a TCP connection
-- How DNS translates domains to IPs
-- Why HTTPS is secure at packet level
-- How data moves across network layers
+- tcp_handshake
+- dns_resolution
+- http_https
+
+Each lab contains:
+- real execution steps
+- packet evidence
+- observations from actual traffic
 
 ---
 
-# Next Steps
+## Goal
 
-- Deep dive into DNS + HTTP flow analysis
-- Build more Wireshark capture labs
-- Start subnetting + routing layer integration
+To understand how data actually moves across networks by directly observing TCP/IP behavior instead of only reading theory.
